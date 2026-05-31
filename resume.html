@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume — Nathan Chu</title>
+  <meta name="description" content="Resume of Nathan Chu, Mechatronics Engineering student at York University." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="index.html">Nathan&nbsp;<span>Chu</span></a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="goals.html">Goals</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="resume.html" class="active">Resume</a></li>
+        <li><a href="reflections.html">Reflections</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Resume</p>
+      <h1>My Resume</h1>
+
+      <div class="notice">
+        <strong>To add your resume:</strong> save it as <code>resume.pdf</code> inside the
+        <code>assets/</code> folder. The viewer and download button below already point there —
+        once the file exists, they'll work automatically. Until then, you'll see this placeholder.
+      </div>
+
+      <div class="btn-row" style="margin-bottom:1.5rem;">
+        <a class="btn btn-primary" href="assets/resume.pdf" target="_blank" rel="noopener">Open PDF in new tab</a>
+        <a class="btn btn-ghost" href="assets/resume.pdf" download>Download resume</a>
+      </div>
+
+      <!-- Embedded PDF viewer. Shows the resume inline once assets/resume.pdf exists. -->
+      <object class="resume-frame" data="assets/resume.pdf" type="application/pdf" aria-label="Nathan Chu resume PDF">
+        <p style="padding:2rem; text-align:center; color:var(--muted);">
+          Your browser can't display the embedded PDF.
+          <a href="assets/resume.pdf">Click here to open the resume</a> instead.
+        </p>
+      </object>
+
+      <!-- OPTIONAL: a plain-text summary so visitors get the highlights without opening the PDF.
+           Edit or delete this section as you like. -->
+      <div style="margin-top:3rem;">
+        <h2>At a glance</h2>
+        <ul class="facts" style="max-width:520px;">
+          <li><strong>Education</strong> B.Eng. Mechatronics Engineering, York University (Lassonde)</li>
+          <li><strong>Experience</strong> Engineering Co-op, Jardine Engineering Corporation</li>
+          <li><strong>Skills</strong> AutoCAD, Excel, Word, Microsoft Project</li>
+          <li><strong>Contact</strong> <a href="mailto:you@example.com">you@example.com</a> <em>(edit)</em></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small>© 2026 Nathan Chu · COOP 2100, Lassonde School of Engineering, York University</small>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
