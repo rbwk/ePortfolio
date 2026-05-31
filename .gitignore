@@ -1,0 +1,8 @@
+# Private local notes — not published
+TODO.md
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
