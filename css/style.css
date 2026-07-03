@@ -212,6 +212,36 @@ p { margin: 0 0 1rem; }
   color: var(--muted);
   font-style: italic;
 }
+.card .tag-competency {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--steel);
+  background: rgba(72,101,129,0.10);
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  margin: 0 0 0.75rem 0.4rem;
+}
+.collection-note {
+  font-size: 0.95rem;
+  color: var(--muted);
+  max-width: 68ch;
+  margin: 0.5rem 0 0;
+}
+.timeline-item .tag-competency {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--steel);
+  background: rgba(72,101,129,0.10);
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  margin: 0.4rem 0 0;
+}
 
 /* Two-column content (e.g. About) */
 .split {
