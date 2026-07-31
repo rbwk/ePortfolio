@@ -243,6 +243,53 @@ p { margin: 0 0 1rem; }
   margin: 0.4rem 0 0;
 }
 
+/* Portfolio item media — either a real asset, or a neutral box marking
+   material that is deliberately withheld (client-confidential work). */
+.item-media {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg);
+  overflow: hidden;
+  margin: 0 0 1rem;
+}
+.item-media img { width: 100%; height: 100%; object-fit: cover; }
+
+.item-media.confidential {
+  border-style: dashed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 1rem;
+  text-align: center;
+}
+.item-media.confidential svg {
+  width: 24px; height: 24px;
+  fill: none;
+  stroke: var(--steel);
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.confidential-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--steel);
+}
+.confidential-sub { font-size: 0.8rem; line-height: 1.4; color: var(--muted); }
+
+/* Three-up strip of smaller media boxes (e.g. the site-visit card) */
+.media-trio { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.5rem; margin: 0 0 1rem; }
+.media-trio .item-media { aspect-ratio: 1 / 1; margin: 0; }
+.media-trio .item-media.confidential { padding: 0.5rem; gap: 0.2rem; }
+.media-trio .item-media.confidential svg { width: 18px; height: 18px; }
+.media-trio .confidential-label { font-size: 0.6rem; letter-spacing: 0.03em; }
+
 /* Two-column content (e.g. About) */
 .split {
   display: grid;
