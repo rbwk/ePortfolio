@@ -74,29 +74,31 @@ self-assessment scores badly. Do not split that card back out.
 
 LIVE:
   coursework/midpoint-journal.pdf   linked from the Mid-Point Journal card
+  coursework/vision-essay.pdf       linked from the Vision Essay card
 
-WITHHELD - needs a fix before it can go up:
-  The vision essay is NOT published. Page 2 of the export carries the student
-  ID line from the assignment cover page, which must not go on a public site,
-  least of all one being handed round a class for peer review. (The number is
-  deliberately not repeated here - this file is published too, and is readable
-  at /assets/README.txt on the live site.) The original is parked at
+There are no "coming soon" placeholders left anywhere on the site.
 
-      assets/vision-essay-HAS-STUDENT-ID-do-not-publish.pdf
+THE VISION ESSAY IS THE REDACTED EXPORT. The original cover page carried a
+student ID. The published version has it properly removed - the text is gone
+from the PDF content stream, not just hidden behind a black rectangle, which
+was checked by decompressing all 13 streams and searching for the number and
+for fragments of it.
 
-  and is listed in .gitignore so it cannot be committed by accident.
+The unredacted original is still on this machine at
 
-  To publish it: delete the student ID line in the source document, export to
-  assets/coursework/vision-essay.pdf, drop the .gitignore rule, and swap the
-  "PDF coming soon." note on the Vision Essay card for
-  <p><a href="assets/coursework/vision-essay.pdf">Read the essay (PDF) &rarr;</a></p>
+    assets/vision-essay-HAS-STUDENT-ID-do-not-publish.pdf
 
-  Everything else in that essay is fine - no contact details, nothing
-  client-confidential.
+and its .gitignore rule is PERMANENT. Do not delete that rule, and never
+publish that file. If the essay ever needs re-exporting, redact first and
+re-run the stream check before it goes anywhere near a commit.
 
-One thing to note in the midpoint journal, your call rather than a blocker:
-Week 3 records "two sick days". Normal in a journal handed to an instructor,
-slightly more exposed on a public page an employer might read.
+A note on both PDFs, your call rather than a blocker:
+  - the essay's page 2 shows a visible black redaction bar. Honest, but a bar
+    on a portfolio piece can read as though something was hidden. Deleting the
+    line outright in the source and re-exporting would leave no mark at all.
+  - the midpoint journal's Week 3 records "two sick days". Normal in a journal
+    handed to an instructor, slightly more exposed on a public page an
+    employer might read.
 
 
 BEFORE PUBLISHING ANY NEW PHOTO

@@ -8,9 +8,10 @@ assets/portfolio/aecompaperdrawing.jpg
 assets/portfolio/siteimage1.jpeg
 assets/portfolio/siteimage2.jpeg
 
-# Vision essay, original export — page 2 carries a student ID, which must not
-# go on a public site. Delete that line in the source document, re-export as
-# assets/coursework/vision-essay.pdf, then remove this rule.
+# Vision essay, ORIGINAL export — page 2 carries a student ID. The redacted
+# version is what ships (assets/coursework/vision-essay.pdf, verified with the
+# ID stripped from the content stream, not merely covered). This rule is
+# permanent: the file below still contains the ID and must never be committed.
 assets/vision-essay-HAS-STUDENT-ID-do-not-publish.pdf
 
 # OS / editor cruft
