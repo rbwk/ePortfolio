@@ -8,6 +8,11 @@ assets/portfolio/aecompaperdrawing.jpg
 assets/portfolio/siteimage1.jpeg
 assets/portfolio/siteimage2.jpeg
 
+# Vision essay, original export — page 2 carries a student ID, which must not
+# go on a public site. Delete that line in the source document, re-export as
+# assets/coursework/vision-essay.pdf, then remove this rule.
+assets/vision-essay-HAS-STUDENT-ID-do-not-publish.pdf
+
 # OS / editor cruft
 .DS_Store
 Thumbs.db

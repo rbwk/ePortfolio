@@ -72,14 +72,31 @@ are DELIBERATELY consolidated into one reflective card rather than posted as
 six separate downloads. The course instructions warn that a dump of every
 self-assessment scores badly. Do not split that card back out.
 
-Two cards still show "PDF coming soon.":
-  coursework/vision-essay.pdf
-  coursework/midpoint-journal.pdf
+LIVE:
+  coursework/midpoint-journal.pdf   linked from the Mid-Point Journal card
 
-Either drop those files in, or delete the two <p class="placeholder-note">
-lines. A finished portfolio should not advertise missing content. Note the
-midpoint card already links through to reflections.html, so it reads fine
-without a PDF at all.
+WITHHELD - needs a fix before it can go up:
+  The vision essay is NOT published. Page 2 of the export carries the student
+  ID line from the assignment cover page, which must not go on a public site,
+  least of all one being handed round a class for peer review. (The number is
+  deliberately not repeated here - this file is published too, and is readable
+  at /assets/README.txt on the live site.) The original is parked at
+
+      assets/vision-essay-HAS-STUDENT-ID-do-not-publish.pdf
+
+  and is listed in .gitignore so it cannot be committed by accident.
+
+  To publish it: delete the student ID line in the source document, export to
+  assets/coursework/vision-essay.pdf, drop the .gitignore rule, and swap the
+  "PDF coming soon." note on the Vision Essay card for
+  <p><a href="assets/coursework/vision-essay.pdf">Read the essay (PDF) &rarr;</a></p>
+
+  Everything else in that essay is fine - no contact details, nothing
+  client-confidential.
+
+One thing to note in the midpoint journal, your call rather than a blocker:
+Week 3 records "two sick days". Normal in a journal handed to an instructor,
+slightly more exposed on a public page an employer might read.
 
 
 BEFORE PUBLISHING ANY NEW PHOTO
